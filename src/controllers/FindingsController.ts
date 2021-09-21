@@ -11,3 +11,13 @@ export abstract class FindingsController extends AttachmentController {
     return "hello Finding";
   }
 }
+
+/*
+Working paths without auth
+http://localhost:8083/rest/findings/
+http://localhost:8083/rest/findings/sts/attachments
+
+
+Working paths with auth
+http://localhost:8083/rest/findings/?user=admin
+*/
